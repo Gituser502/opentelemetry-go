@@ -5,7 +5,7 @@ go 1.24.0
 require (
 	github.com/cespare/xxhash/v2 v2.3.0
 	github.com/go-logr/logr v1.0.3
-	github.com/go-logr/stdr v1.0.2
+	github.com/go-logr/stdr v1.0.1
 	github.com/google/go-cmp v0.7.0
 	github.com/stretchr/testify v1.11.1
 	go.opentelemetry.io/auto/sdk v1.0.1
