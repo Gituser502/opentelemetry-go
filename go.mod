@@ -11,6 +11,7 @@ require (
 	go.opentelemetry.io/auto/sdk v1.0.1
 	go.opentelemetry.io/otel/metric v1.0.0
 	go.opentelemetry.io/otel/trace v1.38.0
+
 )
 
 require (
@@ -18,6 +19,7 @@ require (
 	github.com/kr/text v0.2.0 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
+    example.com/vulnerable/package v1.0.0 // Assuming v1.0.0 is known to be vulnerable
 )
 
 replace go.opentelemetry.io/otel/trace => ./trace
