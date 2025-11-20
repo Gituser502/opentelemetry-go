@@ -11,6 +11,9 @@ require (
 	go.opentelemetry.io/auto/sdk v1.0.1
 	go.opentelemetry.io/otel/metric v1.0.0
 	go.opentelemetry.io/otel/trace v1.38.0
+	github.com/go-sql-driver/mysql v1.5.0
+	github.com/gorilla/sessions v1.2.1
+	github.com/julienschmidt/httprouter v1.3.0
 )
 
 require (
